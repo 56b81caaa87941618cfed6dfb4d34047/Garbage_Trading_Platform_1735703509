@@ -6,5 +6,56 @@
         "source": "base_assistant",
         "content": "Welcome to your new project! I can help you edit it however you want. What would you like to do?",
         "metadata": {}
+    },
+    {
+        "id": "d573b554-97c5-479d-8d69-74365c707f83",
+        "timestamp": "2025-01-01T11:56:15.374543Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Change the background image to be of a trash can",
+        "metadata": {
+            "component_id": "Hero1735703512"
+        }
+    },
+    {
+        "id": "1ca5664b-be60-4af7-8045-3e97904bc275",
+        "timestamp": "2025-01-01T11:56:19.352714Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_eHXJgeejjny177SJemY2Z8uz",
+            "function": {
+                "arguments": "{\"component_id\": \"Hero1735703512\", \"image_input\": \"trash can\", \"placement_instructions\": \"set as background image\", \"acknowledgement_message\": \"Okay, I'm generating the image and setting it as the background.\"}",
+                "name": "GenerateImageAndPlaceInComponent"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "c5df02a1-132d-4bd6-8381-4a203a9ecae1",
+        "timestamp": "2025-01-01T11:56:19.373152Z",
+        "role": "assistant",
+        "source": "tool:GenerateImageAndPlaceInComponent",
+        "content": "Okay, I'm generating the image and setting it as the background.",
+        "metadata": {}
+    },
+    {
+        "id": "a6bf0884-7567-4547-9541-253b84184ab2",
+        "timestamp": "2025-01-01T11:56:30.495385Z",
+        "role": "tool_result",
+        "source": "GenerateImageAndPlaceInComponent",
+        "content": "Success",
+        "metadata": {
+            "tool_call_id": "call_eHXJgeejjny177SJemY2Z8uz"
+        }
+    },
+    {
+        "id": "14e8ac65-256d-4971-b0fe-0d77a6711221",
+        "timestamp": "2025-01-01T11:56:32.758649Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The background image has been changed to an image of a trash can. What would you like to do next?",
+        "metadata": {}
     }
 ]
