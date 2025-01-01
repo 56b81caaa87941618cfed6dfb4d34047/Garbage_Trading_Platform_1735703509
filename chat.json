@@ -57,5 +57,56 @@
         "source": "base_assistant",
         "content": "The background image has been changed to an image of a trash can. What would you like to do next?",
         "metadata": {}
+    },
+    {
+        "id": "d417326b-5e33-486f-bfee-af717d774021",
+        "timestamp": "2025-01-01T12:38:30.008184Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Change TrashTrove to GarbageTrove",
+        "metadata": {
+            "component_id": "Footer1735703512"
+        }
+    },
+    {
+        "id": "11cb4916-0e16-4e82-b45b-d4b9d523d4e3",
+        "timestamp": "2025-01-01T12:38:32.934972Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_MgXxkqMLi2FIeFWxRugNI070",
+            "function": {
+                "arguments": "{\"component_id\": \"Footer1735703512\", \"change_description\": \"Change 'TrashTrove' to 'GarbageTrove'\", \"acknowledgement_message\": \"Okay, I'm updating the text to 'GarbageTrove'.\"}",
+                "name": "EditFrontendComponent"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "0121855a-de29-4d9d-bd10-0b44fa4c5af7",
+        "timestamp": "2025-01-01T12:38:32.969445Z",
+        "role": "assistant",
+        "source": "tool:EditFrontendComponent",
+        "content": "Okay, I'm updating the text to 'GarbageTrove'.",
+        "metadata": {}
+    },
+    {
+        "id": "855145ca-d724-4a78-b560-7ee204f8bf33",
+        "timestamp": "2025-01-01T12:38:38.964582Z",
+        "role": "tool_result",
+        "source": "EditFrontendComponent",
+        "content": "",
+        "metadata": {
+            "tool_call_id": "call_MgXxkqMLi2FIeFWxRugNI070"
+        }
+    },
+    {
+        "id": "645395fa-b06e-4d22-860e-0912f1780baf",
+        "timestamp": "2025-01-01T12:38:40.713953Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "I've updated the text to \"GarbageTrove\". What else would you like to do?",
+        "metadata": {}
     }
 ]
