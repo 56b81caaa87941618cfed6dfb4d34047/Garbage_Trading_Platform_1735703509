@@ -1,0 +1,64 @@
+{
+    "name": "example",
+    "prefix": "%#PLACEHOLDER",
+    "placeholderMappings": {
+        "Blank": [],
+        "Header": [
+            "APPLICATION_NAME"
+        ],
+        "Hero": [
+            "HERO_HEADING_TEXT",
+            "HERO_SUBHEADING_TEXT"
+        ],
+        "Footer": [
+            "APPLICATION_NAME",
+            "FOOTER_TEXT"
+        ],
+        "Newsletter": [
+            "NEWSLETTER_HEADING_TEXT",
+            "NEWSLETTER_SUBHEADING_TEXT",
+            "NEWSLETTER_BUTTON_TEXT"
+        ],
+        "About": [
+            "ABOUT_MISSION_STATMENT",
+            "ABOUT_VISION_STATEMENT",
+            "ABOUT_VALUES_STATEMENT"
+        ],
+        "Contact": [
+            "CONTACT_HEADER_TEXT",
+            "CONTACT_SUBHEADER_TEXT"
+        ],
+        "FAQ": [
+            "FAQ_HEADER_TEXT",
+            "FAQ_SUBHEADER_TEXT",
+            "FAQ_QUESTION_01_TEXT",
+            "FAQ_ANSWER_01_TEXT",
+            "FAQ_QUESTION_02_TEXT",
+            "FAQ_ANSWER_02_TEXT",
+            "FAQ_QUESTION_03_TEXT",
+            "FAQ_ANSWER_03_TEXT"
+        ]
+    },
+    "placeholders": {
+        "APPLICATION_NAME": "TrashTrove",
+        "HERO_HEADING_TEXT": "Turn Your Trash into Treasure",
+        "HERO_SUBHEADING_TEXT": "The ultimate marketplace for buying, selling, and trading waste materials",
+        "FOOTER_TEXT": "\u00a9 2023 TrashTrove. Transforming waste, one transaction at a time.",
+        "NEWSLETTER_HEADING_TEXT": "Stay Updated on Waste Opportunities",
+        "NEWSLETTER_SUBHEADING_TEXT": "Get the latest deals and tips for profitable garbage trading",
+        "NEWSLETTER_BUTTON_TEXT": "Join the Waste Revolution",
+        "ABOUT_MISSION_STATMENT": "To create a sustainable ecosystem where one person's trash becomes another's valuable resource.",
+        "ABOUT_VISION_STATEMENT": "A world where waste is seen as an opportunity, not a problem.",
+        "ABOUT_VALUES_STATEMENT": "Sustainability, Innovation, Transparency, and Community Empowerment",
+        "CONTACT_HEADER_TEXT": "Got Garbage? Let's Talk!",
+        "CONTACT_SUBHEADER_TEXT": "Our waste experts are ready to assist you with any trashy inquiries",
+        "FAQ_QUESTION_01_TEXT": "What types of garbage can I trade on TrashTrove?",
+        "FAQ_ANSWER_01_TEXT": "TrashTrove supports trading of various waste materials including plastics, metals, electronics, textiles, and more. Check our categories for a full list.",
+        "FAQ_QUESTION_02_TEXT": "How do I ensure the quality of the waste I'm buying?",
+        "FAQ_ANSWER_02_TEXT": "Sellers are required to provide detailed descriptions and photos. We also have a rating system and dispute resolution process to ensure fair transactions.",
+        "FAQ_QUESTION_03_TEXT": "Is it legal to trade garbage?",
+        "FAQ_ANSWER_03_TEXT": "Yes, when done properly. TrashTrove ensures all transactions comply with local and international waste management regulations.",
+        "FAQ_HEADER_TEXT": "Frequently Asked Questions",
+        "FAQ_SUBHEADER_TEXT": "Everything you need to know about trading trash on TrashTrove"
+    }
+}
