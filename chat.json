@@ -210,5 +210,56 @@
         "source": "base_assistant",
         "content": "The text has been updated to \"ASDFASDF GARBAGE\". Is there anything else you would like to change?",
         "metadata": {}
+    },
+    {
+        "id": "45365992-2444-4a41-80d0-c17f8c3481ad",
+        "timestamp": "2025-01-01T20:22:30.578861Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Change the text to GARBAGE GARBAGE",
+        "metadata": {
+            "component_id": "Footer1735703512"
+        }
+    },
+    {
+        "id": "3c1f69b1-c670-4271-9de2-da79f19f9b69",
+        "timestamp": "2025-01-01T20:22:33.874849Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_63UVPEmgoy21WK0XoCIqJAXd",
+            "function": {
+                "arguments": "{\"component_id\": \"Footer1735703512\", \"change_description\": \"Change the text to 'GARBAGE GARBAGE'\", \"acknowledgement_message\": \"Okay, I'm updating the text to 'GARBAGE GARBAGE'.\"}",
+                "name": "EditFrontendComponent"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "6172f572-ccff-4918-ba03-59e31d8f07c2",
+        "timestamp": "2025-01-01T20:22:33.892578Z",
+        "role": "assistant",
+        "source": "tool:EditFrontendComponent",
+        "content": "Okay, I'm updating the text to 'GARBAGE GARBAGE'.",
+        "metadata": {}
+    },
+    {
+        "id": "b5f0cc92-87d2-40af-8996-01e76ab35a28",
+        "timestamp": "2025-01-01T20:22:40.288351Z",
+        "role": "tool_result",
+        "source": "EditFrontendComponent",
+        "content": "",
+        "metadata": {
+            "tool_call_id": "call_63UVPEmgoy21WK0XoCIqJAXd"
+        }
+    },
+    {
+        "id": "b260410a-8f18-4cf7-8379-693bfe14358d",
+        "timestamp": "2025-01-01T20:22:42.327264Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The text has been updated to \"GARBAGE GARBAGE\". What would you like to do next?",
+        "metadata": {}
     }
 ]
